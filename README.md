@@ -38,13 +38,13 @@
 > # Support me.
 
 * Thanks for looking at this repository, if you like to press the ⭐ button!
-* Made by [Edward Elton](https://github.com/edwardelton).
+* Made by [Sir Lavoie](https://github.com/sirlavoie).
 
 <p align="center">
     <b>Informations</b><br>
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/edwardelton/CNC-Reaper?color=7143de">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/edwardelton/CNC-Reaper?color=7143de">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/edwardelton/CNC-Reaper?color=7143de">
-    <img alt="GitHub" src="https://img.shields.io/github/license/edwardelton/CNC-Reaper?color=7143de">
-    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/edwardelton/CNC-Reaper?color=7143de">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sirlavoie/CNC-Reaper?color=7143de">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/sirlavoie/CNC-Reaper?color=7143de">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sirlavoie/CNC-Reaper?color=7143de">
+    <img alt="GitHub" src="https://img.shields.io/github/license/sirlavoie/CNC-Reaper?color=7143de">
+    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/sirlavoie/CNC-Reaper?color=7143de">
 </p>
