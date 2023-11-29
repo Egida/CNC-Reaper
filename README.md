@@ -42,9 +42,9 @@
 
 <p align="center">
     <b>Informations</b><br>
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sirlavoie/CNC-Reaper?color=7143de">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/sirlavoie/CNC-Reaper?color=7143de">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sirlavoie/CNC-Reaper?color=7143de">
-    <img alt="GitHub" src="https://img.shields.io/github/license/sirlavoie/CNC-Reaper?color=7143de">
-    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/sirlavoie/CNC-Reaper?color=7143de">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sirlavoie/reaper-c2?color=7143de">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/sirlavoie/reaper-c2?color=7143de">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sirlavoie/reaper-c2?color=7143de">
+    <img alt="GitHub" src="https://img.shields.io/github/license/sirlavoie/reaper-c2?color=7143de">
+    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/sirlavoie/reaper-c2?color=7143de">
 </p>
